@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2019.5.14)  15 MAY 2019 17:59
+This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2019.5.14)  15 MAY 2019 18:16
  restricted system commands enabled.
 **resume.tex
 (./resume.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.072 seconds
+luaotfload | main : initialization completed in 0.076 seconds
 (./resume.cls
 Document Class: resume 2019/05/15 Hayden Resume
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -97,6 +97,9 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 ))
+(./packageset.sty
+Package: packageset 
+
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
@@ -411,6 +414,55 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count195
 \calc@Cskip=\skip52
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
+\c@tracingmulticols=\count196
+\mult@box=\box45
+\multicol@leftmargin=\dimen149
+\c@unbalance=\count197
+\c@collectmore=\count198
+\doublecol@number=\count199
+\multicoltolerance=\count266
+\multicolpretolerance=\count267
+\full@width=\dimen150
+\page@free=\dimen151
+\premulticols=\dimen152
+\postmulticols=\dimen153
+\multicolsep=\skip53
+\multicolbaselineskip=\skip54
+\partial@page=\box46
+\last@line=\box47
+\maxbalancingoverflow=\dimen154
+\mult@rightbox=\box48
+\mult@grightbox=\box49
+\mult@gfirstbox=\box50
+\mult@firstbox=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\c@columnbadness=\count268
+\c@finalcolumnbadness=\count269
+\last@try=\dimen155
+\multicolovershoot=\dimen156
+\multicolundershoot=\dimen157
+\mult@nat@firstbox=\box69
+\colbreak@box=\box70
+\mc@col@check@num=\count270
+)
 luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn
  with language dflt
 luaotfload | aux : no font with id 30
@@ -450,37 +502,37 @@ tf]:mode=node;script=latn;language=DFLT;+tlig;"
 ic.ttf]:mode=node;script=latn;language=DFLT;+tlig;"
 (fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 
-LaTeX Info: Redefining \rmfamily on input line 20.
- (./resume.aux)
+LaTeX Info: Redefining \rmfamily on input line 21.
+) (./resume.aux)
 \openout1 = resume.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count196
-\scratchdimen=\dimen149
-\scratchbox=\box45
-\nofMPsegments=\count197
-\nofMParguments=\count198
+\scratchcounter=\count271
+\scratchdimen=\dimen158
+\scratchbox=\box71
+\nofMPsegments=\count272
+\nofMParguments=\count273
 \everyMPshowfont=\toks17
-\MPscratchCnt=\count199
-\MPscratchDim=\dimen150
-\MPnumerator=\count266
-\makeMPintoPDFobject=\count267
+\MPscratchCnt=\count274
+\MPscratchDim=\dimen159
+\MPnumerator=\count275
+\makeMPintoPDFobject=\count276
 \everyMPtoPDFconversion=\toks18
 )
 *geometry* driver: auto-detecting
@@ -517,7 +569,7 @@ LaTeX Font Info:    ... okay on input line 21.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 21.
+LaTeX Info: Redefining \microtypecontext on input line 4.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -531,7 +583,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Carlito-Regular.ttf' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 22.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 5.
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -543,41 +595,41 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmr' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 22.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 5.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 22.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 5.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 22.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 5.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 22.
+(Font)              <10> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 22.
+(Font)              <7> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 22.
+(Font)              <5> on input line 5.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./resume.aux))
 
 Here is how much of LuaTeX's memory you used:
- 15082 strings out of 494383
+ 15214 strings out of 494383
  100000,460012 words of node,token memory allocated
- 424 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 51 glue_spec,
+ 439 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 54 glue_spec,
  5 attribute_list, 1 write nodes
-   avail lists: 2:143,3:15,4:9,5:60,6:3,7:292,8:9,9:36,10:3,11:15
- 18966 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:143,3:15,4:9,5:60,6:3,7:292,8:9,9:36,10:3,11:15
+ 19084 multiletter control sequences out of 65536+600000
  52 fonts using 12820071 bytes
- 49i,7n,70p,336b,446s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 54i,7n,72p,337b,446s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/fonts/truetype/crosextra/Carlito-Regular.ttf></usr/share/fonts/truet
 ype/crosextra/Carlito-Italic.ttf></usr/share/fonts/truetype/crosextra/Carlito-Bo
 ld.ttf>
